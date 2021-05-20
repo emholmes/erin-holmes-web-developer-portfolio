@@ -104,6 +104,14 @@ header nav ul li a:hover {
     padding-left: 30px;
 }
 
+.about-me h3::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid var(--dark-blue);
+    width: 45%;
+    padding-top: 10px;
+}
+
 .about-me img {
     flex: 0 14%;
     width: 14%;
@@ -138,6 +146,14 @@ header nav ul li a:hover {
     font-size: 33px;
     padding-top: 40px;
     padding-left: 30px;
+}
+
+.my-work h3::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid var(--dark-blue);
+    width: 45%;
+    padding-top: 10px;
 }
 
 .my-work .project-list {
