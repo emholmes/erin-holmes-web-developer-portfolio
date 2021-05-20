@@ -190,25 +190,60 @@ main > section {
     background-color: #d3d3d3;
 }
 
-/* contact me styles */
-.contact-me {
+/* contact me links styles */
+.contact-me-links {
     align-items: baseline;
     padding: 30px;
 }
 
 
-.contact-me > a::before {
-    content: " ";
-    background-image: url(./icons/icon-telephone.png);
+
+.contact-me-links a:nth-child(2) {
+    width: 15%;
+    margin-left: 60px;
+}
+
+.contact-me-links a::before {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: block;
     width: 40px;
     height: 40px;
+    position: relative;
+    top: 25px;
+    right: 42px;
 }
 
+.contact-me-links a:nth-child(1):before {
+    content: " ";
+    background-image: url(./icons/icon-telephone.png);
+}
 
+.contact-me-links a:nth-child(2):before {
+    content: " ";
+    background-image: url(./icons/icon-email2.png);
+    width: 50px;
+    height: 50px;
+    right: 48px;
+}
 
+.contact-me-links a:nth-child(3):before {
+    content: " ";
+    background-image: url(./icons/icon-github.png);
+    right: 48px;
+}
+
+.contact-me-links a:nth-child(4):before {
+    content: " ";
+    background-image: url(./icons/icon-hackerrank.png);
+    right: 48px;
+}
+
+.contact-me-links a:nth-child(5):before {
+    content: " ";
+    background-image: url(./icons/icon-codecademy.png);
+    right: 48px;
+}
 
 @media screen and (max-width: 1024px) {
 
