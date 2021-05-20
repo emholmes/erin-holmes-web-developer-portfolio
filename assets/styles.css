@@ -49,6 +49,18 @@ h2 {
 
 h3 {
     font-size: 1.625rem;
+    flex: 0 17%;
+    font-size: 33px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid var(--dark-blue);
+    width: 35%;
+    padding-top: 10px;
 }
 
 header nav {
@@ -89,27 +101,14 @@ header nav ul li a:hover {
     padding: 100px 60px 20px 0;
 }
 
-.about-me {
+main > section {
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-around;*/
+}
+
+.about-me {
     padding: 30px;
     margin: 0 auto;
-}
-
-.about-me h3 {
-    flex: 0 17%;
-    font-size: 33px;
-    padding-top: 40px;
-    padding-left: 30px;
-}
-
-.about-me h3::after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid var(--dark-blue);
-    width: 45%;
-    padding-top: 10px;
 }
 
 .about-me img {
@@ -134,8 +133,6 @@ header nav ul li a:hover {
 }
 
 .my-work {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     background-color: var(--light-pink);
     padding: 30px;
@@ -146,14 +143,6 @@ header nav ul li a:hover {
     font-size: 33px;
     padding-top: 40px;
     padding-left: 30px;
-}
-
-.my-work h3::after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid var(--dark-blue);
-    width: 45%;
-    padding-top: 10px;
 }
 
 .my-work .project-list {
@@ -170,7 +159,7 @@ header nav ul li a:hover {
     height: 375px;
     margin: 5px;
     border: 2px solid var(--dark-teal);
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .project-list a:hover {
@@ -192,9 +181,33 @@ header nav ul li a:hover {
 
 }
 
+.project-list .project-one {
+    background-image: url(./images/robot-gladiators.png);
+    background-size: cover;
+}
+
 .project-one, .project-two {
     background-color: #d3d3d3;
 }
+
+/* contact me styles */
+.contact-me {
+    align-items: baseline;
+    padding: 30px;
+}
+
+
+.contact-me > a::before {
+    content: " ";
+    background-image: url(./icons/icon-telephone.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+
 
 
 @media screen and (max-width: 1024px) {
