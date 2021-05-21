@@ -16,6 +16,7 @@
 /* set base size for rems */
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -318,8 +319,26 @@ footer p {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 524px) {
+    h1 {
+        margin-left: 0;
+        padding-bottom: 0;
+    }
+    
+    header nav ul {
+        justify-content: center;
+    }
 
+    header nav ul li {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .hero h2 {
+        justify-content: center;
+        padding-right: 0;
+    }
 }
 
 
