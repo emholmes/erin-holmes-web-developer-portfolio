@@ -87,10 +87,6 @@ header nav ul li a {
     font-size: 18px;
 }
 
-header nav ul li a:hover {
-    border-bottom: 2px solid var(--dark-blue);
-}
-
 .hero {
     background-color: var(--ballet-pink);
 }
@@ -117,20 +113,20 @@ main > section {
     width: 200px;
     height: 100%;
     border-radius: 50%;
-    margin-left: 5px;
+    margin-right: 140px;
 }
 
 .about-me div {
     flex: 2;
     align-self: center;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 .about-me div > * {
     padding-bottom: 20px;
 }
 
-.about-me div p:nth-child(2) {
+.about-me div p {
     width: 85%;
 }
 
@@ -191,19 +187,26 @@ main > section {
     margin-bottom: 40px;
 }
 
-/* .contact-me-links {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex: 1 70%;
-    align-items: baseline;
-} */
+.contact-me-links {
+   flex: 1;
+}
 
-/* .contact-me-links a{
-    padding: 0 42px;
-} */
+.contact-me-links section:first-child {
+    padding-bottom: 40px;
+}
 
-/* .contact-me-links a::before, .contact-me-links div::before {
+.contact-me-links a {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark-blue);
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 90px;
+    padding-bottom: 10px;
+}
+
+.main-contact a::before, 
+.more-contact a::before {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: block;
@@ -212,46 +215,46 @@ main > section {
     position: relative;
     top: 25px;
     right: 42px;
-} */
+} 
 
-/* .contact-me-links div:nth-child(1):before {
+.main-contact a:nth-child(1):before {
     content: " ";
     background-image: url(./icons/icon-telephone.png);
     top: 27px;
+    right: 46px;
 }
 
-.contact-me-links a:nth-child(2):before {
+.main-contact a:nth-child(2):before {
     content: " ";
     background-image: url(./icons/icon-email2.png);
-    width: 50px;
-    height: 50px;
-    top: 32px;
-    right: 52px;
+    width: 40px;
+    height: 30px;
+    right: 47px;
 }
 
-.contact-me-links a:nth-child(3):before {
+.more-contact a:nth-child(1):before {
     content: " ";
     background-image: url(./icons/icon-linkedin.png);
     right: 48px;
 }
 
-.contact-me-links a:nth-child(4):before {
+.more-contact a:nth-child(2):before {
     content: " ";
     background-image: url(./icons/icon-github.png);
     right: 48px;
 }
 
-.contact-me-links a:nth-child(5):before {
+.more-contact a:nth-child(3):before {
     content: " ";
     background-image: url(./icons/icon-hackerrank.png);
     right: 48px;
 }
 
-.contact-me-links a:nth-child(6):before {
+.more-contact a:nth-child(4):before {
     content: " ";
     background-image: url(./icons/icon-codecademy.png);
     right: 48px;
-} */
+}
 
 footer {
     background-color: var(--ballet-pink);
@@ -262,12 +265,18 @@ footer p {
     text-align: center;
 }
 
+/* hover style for links, at bottom to ensure adoption */
+a:hover {
+    border-bottom: 2px solid var(--dark-teal);
+    color: var(--dark-teal);
+}
+
 @media screen and (max-width: 1365px) {
     h3 {
         flex: 0 25%;
     }
 
-    .about-me div p:nth-child(2) {
+    .about-me div p {
         width: 95%;
     }
 
@@ -344,12 +353,30 @@ footer p {
     .about-me div {
         padding: 20px 0 0;
     }
+
+    .about-me div p {
+        font-size: 18px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 414px) {
     .hero h2 {
         justify-content: center;
         padding-right: 0;
+    }
+
+    header nav ul li a {
+        margin: 10px;
+    }
+
+    .contact-me-links section:first-child {
+        padding-bottom: 0px;
+    }
+
+    .contact-me-links a {
+        display: block;
+        margin-left: 30px;
     }
 }
 
