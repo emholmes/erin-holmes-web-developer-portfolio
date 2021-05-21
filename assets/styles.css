@@ -38,7 +38,6 @@ h2 {
 }
 
 h3 {
-    font-size: 1.625rem;
     flex: 0 17%;
     font-size: 33px;
     padding-top: 40px;
@@ -49,8 +48,8 @@ h3 {
 h3::after {
     content: "";
     display: block;
-    border-bottom: 1px solid var(--dark-blue);
-    width: 35%;
+    border-bottom: 2px solid var(--dark-blue);
+    width: 75px;
     padding-top: 10px;
 }
 
@@ -137,13 +136,6 @@ main > section {
     justify-content: space-between;
     background-color: var(--light-pink);
     padding: 30px;
-}
-
-.my-work h3 {
-    flex: 0 17%;
-    font-size: 33px;
-    padding-top: 40px;
-    padding-left: 30px;
 }
 
 .my-work .project-list {
@@ -243,6 +235,7 @@ main > section {
 .contact-me-links a:nth-child(1):before {
     content: " ";
     background-image: url(./icons/icon-telephone.png);
+    top: 27px;
 }
 
 .contact-me-links a:nth-child(2):before {
@@ -287,8 +280,18 @@ footer p {
     text-align: center;
 }
 
+@media screen and (max-width: 1365px) {
+    h3 {
+        flex: 0 25%;
+    }
+
+    .my-work .project-list {
+        flex: 1 70%;
+    }
+}
 
 @media screen and (max-width: 1024px) {
+
 
 }
 
