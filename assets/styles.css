@@ -370,7 +370,7 @@ a:hover, a:active {
 @media screen and (max-width: 524px) {
     h1 {
         margin-left: 0;
-        padding: 20px 0 0;
+        padding: 10px 0 0;
     }
     
     header nav ul {
