@@ -402,6 +402,10 @@ a:hover, a:active {
         padding-right: 0;
     }
 
+    .contact-me-links {
+        margin-bottom: 30px;
+    }
+
     .contact-me-links section:first-child {
         padding-bottom: 0px;
     }
@@ -410,6 +414,16 @@ a:hover, a:active {
         display: block;
         margin-left: 48px;
     }
+
+    .contact-me-links li {
+        margin-bottom: 0;
+    }
+
+    .contact-me-links li::before {
+        top: 40px;
+    }
+
+
 }
 
 
