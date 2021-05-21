@@ -270,6 +270,10 @@ a:hover, a:active {
         width: 95%;
     }
 
+    .about-me img {
+        margin-right: 40px;
+    }
+
     .my-work .project-list {
         flex: 1 70%;
     }
@@ -302,6 +306,11 @@ a:hover, a:active {
         padding: 0;
     }
 
+    .about-me img {
+        position: relative;
+        bottom: 40px;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -314,6 +323,10 @@ a:hover, a:active {
     .about-me div {
         flex: 1 100%;
         padding: 20px 30px;
+    }
+
+    .about-me img {
+        bottom: 10px;
     }
 
     .project-list a {
