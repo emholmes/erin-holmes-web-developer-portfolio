@@ -190,35 +190,11 @@ main > section {
 }
 
 .contact-me-links {
-    margin-left: 70px;
-    display: grid;
-    grid-template-columns: repeat(25, 1fr);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     flex: 1 70%;
     align-items: baseline;
-}
-
-.contact-me-links a:nth-child(1) {
-    grid-column: 1 / span 3;
-}
-
-.contact-me-links a:nth-child(2) {
-    grid-column: 5 / span 4;
-}
-
-.contact-me-links a:nth-child(3) {
-    grid-column: 11 / span 3;
-}
-
-.contact-me-links a:nth-child(4) {
-    grid-column: 14 / span 3;
-}
-
-.contact-me-links a:nth-child(5) {
-    grid-column: 17 / span 4;
-}
-
-.contact-me-links a:nth-child(6) {
-    grid-column: 21 / span 4;
 }
 
 .contact-me-links a::before {
