@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* color pallet */
 :root {
     --dark-blue: #2b2b54; 
     --mid-blue: #325288;
@@ -325,6 +326,12 @@ a:hover, a:active {
         margin: 16px;
     }
     
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 575px) {
