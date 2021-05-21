@@ -115,6 +115,7 @@ main > section {
 .about-me img {
     flex: 0 14%;
     width: 200px;
+    height: auto;
     border-radius: 50%;
     margin-left: 5px;
 }
