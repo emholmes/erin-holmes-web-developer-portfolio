@@ -113,7 +113,7 @@ main > section {
 
 .about-me img {
     flex: 0 14%;
-    width: 14%;
+    width: 200px;
     border-radius: 50%;
     margin-left: 5px;
 }
@@ -197,6 +197,10 @@ main > section {
     align-items: baseline;
 }
 
+.contact-me-links a{
+    padding: 0 42px;
+}
+
 .contact-me-links a::before {
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -261,22 +265,57 @@ footer p {
         flex: 0 25%;
     }
 
+    .about-me div p:nth-child(2) {
+        width: 95%;
+    }
+
     .my-work .project-list {
         flex: 1 70%;
     }
 }
 
 @media screen and (max-width: 1024px) {
-
-
+    h3 {
+        flex: 0 30%;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+    }
+    
+    header nav {
+        flex: 100%;
+        justify-content: center;
+        padding: 0 0 20px;
+    }
+    
+    h3 {
+        flex: 1 100%;
+        margin-bottom: 20px;
+        padding: 0;
+    }
 
 }
 
 @media screen and (max-width: 575px) {
+    .about-me img {
+        margin: 0 auto;
+    }
 
+    .about-me div {
+        flex: 1 100%;
+        padding: 20px 30px;
+    }
+
+    .project-list a {
+        flex: 1 100%;
+    }
+
+    .contact-me-links {
+        justify-content: space-between;
+    }
 }
 
 @media screen and (max-width: 375px) {
