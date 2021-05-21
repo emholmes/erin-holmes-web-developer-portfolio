@@ -25,23 +25,25 @@ body {
 }
 
 h1 {
-    color: var(--dark-blue);
-    font-size: 40px;
-    padding: 25px 20px 20px 30px;
-    margin-left: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: var(--dark-blue);
 }
 
 h2 {
-    font-size: 28px;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: var(--dark-blue);
+    text-align: right;
+    padding-top: 5px;
 }
 
 h3 {
+    font-family: Georgia, serif;
     flex: 0 17%;
     font-size: 33px;
     padding-top: 40px;
     padding-left: 30px;
-    font-family: Georgia, serif;
 }
 
 h3::after {
@@ -85,8 +87,14 @@ header nav ul li a {
     font-size: 18px;
 }
 
+.h1-block {
+    padding: 20px 30px;
+    margin-left: 30px;
+}
+
 .hero {
     background-color: var(--ballet-pink);
+    height: 50px;
 }
 
 .hero h2 {
@@ -290,13 +298,8 @@ a:hover, a:active {
 }
 
 @media screen and (max-width: 980px) {
-    header {
-        justify-content: center;
-    }
-    
     header nav {
-        flex: 100%;
-        justify-content: center;
+        justify-content: space-around;
         padding: 0 0 20px;
     }
     
@@ -311,6 +314,17 @@ a:hover, a:active {
         bottom: 40px;
     }
 
+}
+
+@media screen and (max-width: 840px) {
+    .h1-block {
+        margin-left: 0;
+    }
+
+    header nav ul li a {
+        margin: 16px;
+    }
+    
 }
 
 @media screen and (max-width: 575px) {
