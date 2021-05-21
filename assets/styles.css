@@ -347,7 +347,7 @@ a:hover {
     }
 
     header nav ul li a {
-        margin: 16px;
+        margin: 10px;
     }
 
     .about-me div {
@@ -366,9 +366,7 @@ a:hover {
         padding-right: 0;
     }
 
-    header nav ul li a {
-        margin: 10px;
-    }
+
 
     .contact-me-links section:first-child {
         padding-bottom: 0px;
@@ -376,7 +374,7 @@ a:hover {
 
     .contact-me-links a {
         display: block;
-        margin-left: 30px;
+        margin-left: 48px;
     }
 }
 
