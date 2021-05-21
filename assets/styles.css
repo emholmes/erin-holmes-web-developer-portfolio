@@ -256,7 +256,7 @@ footer p {
 }
 
 /* hover style for links, at bottom to ensure adoption */
-a:hover {
+a:hover, a:active {
     border-bottom: 2px solid var(--dark-teal);
     color: var(--dark-teal);
 }
