@@ -13,9 +13,7 @@
 
 }
 
-/* set base size for rems */
 html {
-    font-size: 16px;
     scroll-behavior: smooth;
 }
 
@@ -28,14 +26,14 @@ body {
 
 h1 {
     color: var(--dark-blue);
-    font-size: 2.5rem;
+    font-size: 40px;
     padding: 25px 20px 20px 30px;
     margin-left: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 28px;
 }
 
 h3 {
@@ -212,6 +210,10 @@ main > section {
     top: 27px;
 } 
 
+.phone-number {
+    pointer-events: none;
+}
+
 .contact-me-links li:nth-child(1):before {
     content: " ";
     background-image: url(./icons/icon-telephone.png);
@@ -276,6 +278,10 @@ a:hover {
 @media screen and (max-width: 1024px) {
     h3 {
         flex: 0 30%;
+    }
+
+    .phone-number {
+        pointer-events: auto;
     }
 }
 
