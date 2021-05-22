@@ -410,17 +410,12 @@ a:hover, a:active {
         padding-bottom: 0px;
     }
 
-    .contact-me-links a {
-        display: block;
-        margin-left: 48px;
-    }
-
     .contact-me-links li {
         margin-bottom: 0;
     }
 
     .contact-me-links li::before {
-        top: 40px;
+        top: 28px;
     }
 
 
