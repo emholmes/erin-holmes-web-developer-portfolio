@@ -272,7 +272,7 @@ a:hover, a:active {
 
 @media screen and (max-width: 1365px) {
     h3 {
-        flex: 0 25%;
+        flex: 0 20%;
     }
 
     .about-me div p {
@@ -290,7 +290,7 @@ a:hover, a:active {
 
 @media screen and (max-width: 1024px) {
     h3 {
-        flex: 0 30%;
+        flex: 0 25%;
     }
 
     .phone-number {
