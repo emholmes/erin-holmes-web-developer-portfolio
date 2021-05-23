@@ -1,3 +1,4 @@
+/* clear any browser styles */
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@
     --sans-serif: Arial, Helvetica, sans-serif;
 }
 
+/* global styles */
 html {
     scroll-behavior: smooth;
 }
@@ -56,6 +58,14 @@ h3::after {
     padding-top: 10px;
 }
 
+li a:hover, li a:active {
+    border-bottom: 2px solid var(--dark-teal);
+    color: var(--dark-teal);
+}
+/* global styles end */
+
+
+/* header styles */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -94,6 +104,9 @@ header nav ul li a {
     margin-left: 30px;
 }
 
+/* header styles end */
+
+/* hero styles */
 .hero {
     background-color: var(--ballet-pink);
     height: 50px;
@@ -105,12 +118,15 @@ header nav ul li a {
     align-items: flex-end;
     padding: 70px 60px 20px 0;
 }
+/* hero styles end */
 
+/* main content styles */
 main > section {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* about me styles */
 .about-me {
     padding: 30px;
     margin: 0 auto;
@@ -137,7 +153,9 @@ main > section {
 .about-me div p {
     width: 85%;
 }
+/* about me styles end */
 
+/* my work styles */
 .my-work {
     justify-content: space-between;
     background-color: var(--light-pink);
@@ -159,7 +177,7 @@ main > section {
     margin: 5px;
     position: relative;
     z-index: 1;
-    background-color: var(--ballet-pink); /*fall back for background images */
+    background-color: var(--ballet-pink); /* fall back for project background images */
 }
 
 .project-list > div a {
@@ -232,8 +250,9 @@ main > section {
 .project-title {
     padding-bottom: 5px;
 }
+/* my work styles end */
 
-/* contact me links styles */
+/* contact me styles */
 .contact-me {
     padding: 30px;
     align-items: baseline;
@@ -277,6 +296,7 @@ main > section {
     pointer-events: none;
 }
 
+/* contact me icons */
 .contact-me-links li:nth-child(1):before {
     content: " ";
     background-image: url(./icons/icon-telephone.png);
@@ -308,7 +328,9 @@ main > section {
     content: " ";
     background-image: url(./icons/icon-codecademy.png);
 }
+/* contact me icons end */
 
+/* footer styles */
 footer {
     background-color: var(--ballet-pink);
 }
@@ -317,13 +339,9 @@ footer p {
     padding: 50px;
     text-align: center;
 }
+/* footer styles end */
 
-/* hover style for links, at bottom to ensure adoption */
-li a:hover, li a:active {
-    border-bottom: 2px solid var(--dark-teal);
-    color: var(--dark-teal);
-}
-
+/* medium screen styles */
 @media screen and (max-width: 1365px) {
     h3 {
         flex: 0 20%;
@@ -341,7 +359,9 @@ li a:hover, li a:active {
         flex: 1 70%;
     }
 }
+/* medium screen styles end */
 
+/* horizonal tablet */
 @media screen and (max-width: 1024px) {
     h3 {
         flex: 0 25%;
@@ -351,6 +371,7 @@ li a:hover, li a:active {
         pointer-events: auto;
     }
 }
+/* horizontal tablet end */
 
 @media screen and (max-width: 980px) {
     header nav {
@@ -382,12 +403,15 @@ li a:hover, li a:active {
     
 }
 
+/* vertical tablet */
 @media screen and (max-width: 768px) {
     header {
         justify-content: center;
     }
 }
+/* vertical tablet end */
 
+/* small screens */
 @media screen and (max-width: 575px) {
     .about-me img {
         margin: 0 auto;
@@ -483,8 +507,7 @@ li a:hover, li a:active {
     .contact-me-links li::before {
         top: 28px;
     }
-
-
 }
+/* small screens end */
 
 
