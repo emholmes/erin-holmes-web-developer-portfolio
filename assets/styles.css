@@ -434,7 +434,7 @@ footer p {
         bottom: 10px;
     }
 
-    .project-list div {
+    .project-list li {
         flex: 1 100%;
     }
 
