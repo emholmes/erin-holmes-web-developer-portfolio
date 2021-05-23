@@ -161,6 +161,10 @@ main > section {
     z-index: 1;
 }
 
+.project-list > div a {
+    text-decoration: none;
+}
+
 .project-list > div::before {
     content: "";
     opacity: 0.7;
@@ -192,12 +196,13 @@ main > section {
 }
 
 .project-two::before {
-    background-color: #d3d3d3;
+    background-image: url(https://picsum.photos/seed/picsum/200/300); 
+    background-size: cover;
 }
 
 .project-list .project-description {
     display: block;
-    padding: 20px 20px; 
+    padding: 20px 20px 15px; 
     background-color: var(--mid-blue);
     color: #FFF;
     height: fit-content;
@@ -206,6 +211,21 @@ main > section {
     position: relative;
     right: 20px;
     bottom: 40px;
+}
+
+.project-list div .project-description::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+}
+
+.project-list div .project-description:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #FFF;
+    width: 100%;
+    /* padding-top: 10px;  */
 }
 
 /* contact me links styles */
