@@ -159,6 +159,7 @@ main > section {
     margin: 5px;
     position: relative;
     z-index: 1;
+    background-color: var(--ballet-pink); /*fall back for background images */
 }
 
 .project-list > div a {
@@ -444,7 +445,7 @@ li a:hover, li a:active {
         width: 100%;
     }
 
-    .about-me div img {
+    .about-me img {
         margin-top: 20px;
     }
 }
