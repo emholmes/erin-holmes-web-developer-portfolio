@@ -196,10 +196,15 @@ main > section {
 
 .project-list .project-description {
     display: block;
-    padding: 15px 35px;
+    padding: 20px 20px; 
     background-color: var(--mid-blue);
     color: #FFF;
     height: fit-content;
+    width: fit-content;
+    border-radius: 0 15px 15px 0;
+    position: relative;
+    right: 20px;
+    bottom: 40px;
 }
 
 /* contact me links styles */
