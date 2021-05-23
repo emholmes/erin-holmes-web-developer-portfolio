@@ -166,9 +166,10 @@ main > section {
     display: flex;
     flex-wrap: wrap;
     flex: 1 80%;
+    list-style-type: none;
 }
 
-.project-list > div {
+.project-list > li {
     display: flex;
     align-items: flex-end;
     flex: 1 45%;
@@ -180,11 +181,15 @@ main > section {
     background-color: var(--ballet-pink); /* fall back for project background images */
 }
 
-.project-list > div a {
+.project-list > li a {
     text-decoration: none;
 }
 
-.project-list > div::before {
+.project-list > li a:hover {
+    border-bottom: none; /* prevent border from appearing on project images */
+}
+
+.project-list > li::before {
     content: "";
     opacity: 0.7;
     width: 100%;
@@ -195,7 +200,7 @@ main > section {
     z-index: -1;
 }
 
-.project-list > div:hover::before {
+.project-list > li:hover::before {
     opacity: 1;
     cursor: pointer;
 }
@@ -204,6 +209,7 @@ main > section {
     flex: 1 100%;
 }
 
+/* my work background images */
 .project-list .featured-project::before {
     background-image: url(./images/run-buddy.png);
     background-size: cover;
@@ -232,14 +238,14 @@ main > section {
     bottom: 40px;
 }
 
-.project-list div .project-description::after {
+.project-list li .project-description::after {
     content: "";
     display: block;
     border-bottom: 2px solid transparent;
     padding-bottom: 5px;
 }
 
-.project-list div .project-description:hover::after {
+.project-list li .project-description:hover::after {
     content: "";
     display: block;
     border-bottom: 2px solid #FFF;
