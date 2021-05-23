@@ -229,6 +229,10 @@ main > section {
     /* padding-top: 10px;  */
 }
 
+.project-title {
+    padding-bottom: 5px;
+}
+
 /* contact me links styles */
 .contact-me {
     padding: 30px;
