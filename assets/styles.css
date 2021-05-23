@@ -178,14 +178,11 @@ main > section {
     margin: 5px;
     position: relative;
     z-index: 1;
+    text-decoration: none;
     background-color: var(--ballet-pink); /* fall back for project background images */
 }
 
-.project-list > a li {
-    text-decoration: none;
-}
-
-.project-list > a li:hover {
+.project-list > a:hover {
     border-bottom: none; /* prevent border from appearing on project images */
 }
 
