@@ -378,7 +378,7 @@ li a:hover, li a:active {
         bottom: 10px;
     }
 
-    .project-list a {
+    .project-list div {
         flex: 1 100%;
     }
 
@@ -428,6 +428,14 @@ li a:hover, li a:active {
     .hero h2 {
         justify-content: center;
         padding-right: 0;
+    }
+
+    .my-work {
+        padding: 10px;
+    }
+
+    .my-work h3 {
+        padding: 20px 0 0 20px; 
     }
 
     .contact-me-links {
