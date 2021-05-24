@@ -1,5 +1,4 @@
-# Erin Holmes 
-# Web Developer Portfolio
+# Web Developer Portfolio by Erin Holmes
 
 Welcome to my portfolio repo! This portfolio showcases my knowledge in semantic HTML and advanced css (flexbox, pseudo-classes, variables). It's also a work in progress and I will be adding to it as I complete more projects. 
 
