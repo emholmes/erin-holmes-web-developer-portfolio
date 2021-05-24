@@ -6,7 +6,7 @@ Currently, you can find two projects. Selecting either one will take you to a de
 
 The phone number and email are both for display purposes only. The phone number is only clickable on phones/tablets. The other links under Contact Us are real links to my profiles. 
 
-View portfolio: https://emholmes.github.io/my-portfolio/ (deployed application)
+View portfolio: https://emholmes.github.io/erin-holmes-web-developer-portfolio/ (deployed application)
 
 ![Screenshot of portfolio on desktop](./assets/images/eholmes-portfolio-ss.png)
 
