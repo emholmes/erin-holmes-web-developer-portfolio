@@ -430,8 +430,9 @@ footer p {
         bottom: 10px;
     }
 
-    .project-list a {
+    .project-list a:not(.featured-project) {
         flex: 1 100%;
+        height: 250px;
     }
 
     .contact-me h3 {

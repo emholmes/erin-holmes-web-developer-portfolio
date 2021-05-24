@@ -1,7 +1,7 @@
 # Erin Holmes 
 # Web Developer Portfolio
 
-Welcome to my portfolio repo! This portfolio showcases my knowledge in advanced CSS and semantic HTML. It's also a work in progress and I will be adding to it as I complete more projects. 
+Welcome to my portfolio repo! This portfolio showcases my knowledge in semantic HTML and advanced css (flexbox, pseudo-classes, variables). It's also a work in progress and I will be adding to it as I complete more projects. 
 
 Currently, you can find two projects. Selecting either one will take you to a deployed application. The featured project is called Run Buddy, demonstrating my knowledge of semantic HTML. The second project is a game called Robot Gladiators created entirely with Javascript. The third spot under "My Work" is a placeholder for now. I hope to add a project created with React.
 
