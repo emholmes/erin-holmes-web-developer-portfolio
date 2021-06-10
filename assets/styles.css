@@ -207,7 +207,7 @@ main > section {
 
 /* my work background images */
 .project-list .featured-project::before {
-    background-image: url(./images/run-buddy.png);
+    background-image: url(./images/js-api-quiz.png);
     background-size: cover;
 }
 
