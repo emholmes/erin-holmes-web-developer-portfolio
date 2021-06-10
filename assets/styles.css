@@ -217,7 +217,7 @@ main > section {
 }
 
 .project-two::before {
-    background-image: url(https://picsum.photos/seed/picsum/200/300); 
+    background-image: url(./images/password-generator.png); 
     background-size: cover;
 }
 
