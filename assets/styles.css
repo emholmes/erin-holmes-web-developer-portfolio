@@ -299,7 +299,8 @@ main > section {
 }
 
 /* contact me icons */
-.contact-me-links li:nth-child(1):before {
+
+/* .contact-me-links li:nth-child(1):before {
     content: " ";
     background-image: url(./icons/icon-telephone.png);
 }
@@ -309,24 +310,24 @@ main > section {
     background-image: url(./icons/icon-email2.png);
     width: 40px;
     height: 30px;
-}
+} */
 
-.contact-me-links li:nth-child(3):before {
+.contact-me-links li:nth-child(1):before {
     content: " ";
     background-image: url(./icons/icon-linkedin.png);
 }
 
-.contact-me-links li:nth-child(4):before {
+.contact-me-links li:nth-child(2):before {
     content: " ";
     background-image: url(./icons/icon-github.png);
 }
 
-.contact-me-links li:nth-child(5):before {
+.contact-me-links li:nth-child(3):before {
     content: " ";
     background-image: url(./icons/icon-hackerrank.png);
 }
 
-.contact-me-links li:nth-child(6):before {
+.contact-me-links li:nth-child(4):before {
     content: " ";
     background-image: url(./icons/icon-codecademy.png);
 }
