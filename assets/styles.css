@@ -207,7 +207,7 @@ main > section {
 
 /* my work background images */
 .project-list .featured-project::before {
-    background-image: url(./images/parktime-homepage-categories.png); 
+    background-image: url(./images/parktime-2-home.png); 
     background-size: cover;
 }
 
